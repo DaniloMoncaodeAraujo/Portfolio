@@ -4,10 +4,10 @@ window.addEventListener('scroll', function(){
 
     if(window.scrollY > 100){
         meuheader.style.background = '#000000'
-        meuheader.style.border = '1px solid #9CA3AF'
+        meuheader.style.borderBottom = '1px solid #9CA3AF'
     }else{
         meuheader.style.background = ''
-        meuheader.style.border = ''
+        meuheader.style.borderBottom = ''
     }
 });
 

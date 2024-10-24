@@ -512,3 +512,158 @@
 
     }
 }
+
+@media (max-width: 450px) {
+
+    /**Header**/
+    header {
+        justify-content: start;
+        
+        .container-header {
+            width: 98%;
+        }
+    }
+
+    /**Home**/
+    .container-home {
+        margin-bottom: 20px;
+        padding: 10px;
+        position: relative;
+        left: -25px;
+
+        article {
+            margin-left: 0px;
+
+            .aside-1 {
+                top: -100px;
+                position: relative;
+
+
+                .paragrafo-olá {
+                    font-size: 27px;
+                }
+
+                h2 {
+                    font-size: 29px;
+                }
+
+                .paragrafo-desen {
+                    font-size: 18px;
+                    margin-left: 130px;
+                }
+            }
+
+            .aside-2 {
+                position: relative;
+                top: 110px;
+                z-index: 3;
+
+                div {
+                    p {
+                        font-size: 12px;
+                    }
+                }
+
+                .div-entreEmContato {
+
+                    button {
+                        font-size: 22px;
+                        white-space: nowrap;
+
+                    }
+
+                    a {
+                        margin-left: 5px;
+
+                        img {
+                            height: 26px;
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+        .minha-foto {
+            height: 350px;
+            margin: 0 0 85px -400px;
+        }
+    }
+
+    /**Sobre**/
+    .container-sobre {
+        margin: 100px 0 0 0px;
+
+        .O-que-faço {
+            
+
+            article {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                margin-left: 3%;
+                gap: 30px;
+
+                aside {
+                    width: 350px;
+
+                    img {
+                        height: 35px;
+                    }
+
+                    h4 {
+                        font-size: 18px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    /**Habilidades**/
+    .container-habilidades {
+        margin-left: 0px;
+
+        h3 {
+            font-size: 29px;
+
+        }
+    }
+
+
+    /********Projetos*******/
+    .container-projetos {
+        margin-left: 0px;
+
+    }
+
+
+    /********Contato*******/
+    .container-contato {
+        margin-left: 0px;
+
+        article {
+            grid-template-columns: 170px 170px;
+            grid-template-rows: 70px 70px 220px;
+        }
+    }
+
+
+    /**Footer**/
+    footer {
+        padding: 0 20px;
+
+        p {
+            font-size: 11px;
+        }
+
+        img {
+            height: 30px;
+        }
+
+    }
+}
